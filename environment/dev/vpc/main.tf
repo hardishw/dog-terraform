@@ -20,6 +20,7 @@ module "vpc" {
   azs = ["eu-west-2a"]
 
   tags = {
+    Name = "dog-website"
     Owner     = "devops"
     Environment = "dev"
   }
